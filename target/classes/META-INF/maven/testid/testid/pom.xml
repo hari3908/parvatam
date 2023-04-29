@@ -34,9 +34,7 @@
                 <version>2.22.2</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>
-                            jb-hello-world-maven/testng.xml
-                        </suiteXmlFile>
+                        <suiteXmlFile>jb-hello-world-maven/testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
