@@ -34,7 +34,7 @@
                 <version>2.22.2</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>jb-hello-world-maven/testng.xml</suiteXmlFile>
+                        <suiteXmlFile>${project.basedir}/${testng}</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
