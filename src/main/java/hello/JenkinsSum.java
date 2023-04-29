@@ -1,10 +1,13 @@
 package hello;
 
+import org.testng.annotations.Test;
+
 //import java.util.Scanner;
 
 public class JenkinsSum {
 
-   public static void main(String[] args) {
+   @Test
+   public void sumof() {
       
       // Read the first number from the Jenkins parameter
       int num1 = Integer.parseInt(System.getenv("FIRST_NUM"));
