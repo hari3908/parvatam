@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hello.TestDemo">
+      <class name="testid.testid.JenkinsSum">
         <methods>
-          <include name="add"/>
+          <include name="sumof"/>
         </methods>
-      </class> <!-- hello.TestDemo -->
+      </class> <!-- testid.testid.JenkinsSum -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
